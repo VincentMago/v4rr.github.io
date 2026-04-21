@@ -16,10 +16,8 @@ const projects = [
     }
 ];
 
-// Select the grid from the HTML
 const container = document.getElementById('project-container');
 
-// Loop through the projects array and generate HTML for each card
 projects.forEach(p => {
     container.innerHTML += `
         <div class="card">

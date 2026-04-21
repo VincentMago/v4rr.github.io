@@ -1,7 +1,7 @@
 :root {
     --bg: #0a0a0a;
     --text: #ffffff;
-    --accent: #00ff88; /* Racing Green/Neon */
+    --accent: #00ff88; 
     --card: #141414;
     --gray: #888;
 }
@@ -20,43 +20,40 @@ body {
     padding: 0 5%; 
 }
 
-/* Navigation */
 nav { 
     display: flex; 
     justify-content: space-between; 
     padding: 40px 0; 
-    align-items: flex-start; /* Aligns links with the top logo line */
+    align-items: flex-start; 
 }
 
-/* Groups the logo and the picture together */
 .brand-group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px; /* Space between logo and picture */
+    gap: 15px; 
 }
 
 .logo { 
     font-weight: 700; 
     font-size: 1.4rem; 
     letter-spacing: 2px; 
-    line-height: 1; /* Tighter logo line */
+    line-height: 1; 
 }
 
 .logo span { color: var(--accent); }
 
-/* The new profile picture styles */
 .profile-pic {
-    width: 60px; /* Small, but not too small */
+    width: 60px; 
     height: 60px;
-    border-radius: 50%; /* Makes it a perfect circle */
-    object-fit: cover; /* Prevents stretching if your photo isn't square */
-    border: 2px solid var(--accent); /* Subtle accent border */
-    box-shadow: 0 0 10px rgba(0, 255, 136, 0.3); /* Soft accent glow */
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid var(--accent); 
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.3); 
 }
 
 .nav-links {
-    margin-top: 5px; /* Slight alignment boost */
+    margin-top: 5px; 
 }
 
 .nav-links a {
